@@ -28,6 +28,9 @@ run_worker_first = true
 [triggers]
 crons = ["0 16 * * *"]	#定时任务每天晚上12点执行
 
+# mail-worker/wrangler.toml
+name = 'cloud-mail-c'
+
 
 #[vars]
 #orm_log = false
