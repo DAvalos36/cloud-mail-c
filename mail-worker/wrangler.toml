@@ -1,4 +1,4 @@
-name = "cloud-mail"
+name = "cloud-mail-c"
 main = "src/index.js"
 compatibility_date = "2025-06-04"
 keep_vars = true
@@ -28,8 +28,6 @@ run_worker_first = true
 [triggers]
 crons = ["0 16 * * *"]	#定时任务每天晚上12点执行
 
-# mail-worker/wrangler.toml
-name = 'cloud-mail-c'
 
 
 #[vars]
